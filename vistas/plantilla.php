@@ -25,8 +25,6 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 
-
-
 	<?php
 
 		//echo '<link rel="icon" href="'.$servidor.$icono["icono"].'">';

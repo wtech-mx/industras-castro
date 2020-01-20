@@ -2,7 +2,7 @@
 			<aside id="colorlib-hero" class="js-fullheight">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
+				   	<li style="background-image: url(<?php echo $url; ?>vistas/images/img_bg_1.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -18,7 +18,7 @@
 					   		</div>
 				   		</div>
 				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.jpg);">
+				   	<li style="background-image: url(<?php echo $url; ?>vistas/images/img_bg_2.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -34,7 +34,7 @@
 					   		</div>
 				   		</div>
 				   	</li>
-				   	<li style="background-image: url(images/img_bg_3.jpg);">
+				   	<li style="background-image: url(<?php echo $url; ?>vistas/images/img_bg_3.jpg);">
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -58,7 +58,7 @@
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6">
-							<div class="about-img animate-box" data-animate-effect="fadeInLeft" style="background-image: url(images/img_bg_2.jpg);">
+							<div class="about-img animate-box" data-animate-effect="fadeInLeft" style="background-image: url(<?php echo $url; ?>vistas/images/img_bg_2.jpg);">
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
@@ -151,19 +151,19 @@
 							<div class="row">
 								<div class="col-md-6">
 									<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-										<div class="services-img" style="background-image: url(images/services-1.jpg)"></div>
+										<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/services-1.jpg)"></div>
 										<div class="desc">
 											<h3>Design &amp; Build</h3>
 										</div>
 									</a>
 									<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-										<div class="services-img" style="background-image: url(images/services-2.jpg)"></div>
+										<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/services-2.jpg)"></div>
 										<div class="desc">
 											<h3>House Remodeling</h3>
 										</div>
 									</a>
 									<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-										<div class="services-img" style="background-image: url(images/services-3.jpg)"></div>
+										<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/services-3.jpg)"></div>
 										<div class="desc">
 											<h3>Construction Management</h3>
 										</div>
@@ -171,13 +171,13 @@
 								</div>
 								<div class="col-md-6 move-bottom">
 									<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-										<div class="services-img" style="background-image: url(images/services-4.jpg)"></div>
+										<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/services-4.jpg)"></div>
 										<div class="desc">
 											<h3>Painting &amp; Tiling</h3>
 										</div>
 									</a>
 									<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-										<div class="services-img" style="background-image: url(images/services-5.jpg)"></div>
+										<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/services-5.jpg)"></div>
 										<div class="desc">
 											<h3>Kitchen Remodeling</h3>
 										</div>
@@ -189,7 +189,7 @@
 				</div>
 			</div>
 			
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(<?php echo $url; ?>vistas/images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -229,7 +229,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
+							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-1.jpg);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="work.html">Work 01</a></h3>
@@ -244,7 +244,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
+							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-2.jpg);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="work.html">Work 02</a></h3>
@@ -259,7 +259,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
+							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-3.jpg);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="work.html">Work 03</a></h3>
@@ -274,7 +274,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
+							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-4.jpg);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="work.html">Work 04</a></h3>
@@ -289,7 +289,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
+							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-5.jpg);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="work.html">Work 05</a></h3>
@@ -304,7 +304,7 @@
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
+							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-6.jpg);">
 								<div class="desc">
 									<div class="con">
 										<h3><a href="work.html">Work 06</a></h3>
@@ -333,7 +333,7 @@
 					<div class="row">
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="blog.html" class="blog-img"><img src="<?php echo $url; ?>vistas/images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="blog.html">Renovating National Gallery</a></h3>
@@ -343,7 +343,7 @@
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="blog.html" class="blog-img"><img src="<?php echo $url; ?>vistas/images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
@@ -353,7 +353,7 @@
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="blog.html" class="blog-img"><img src="<?php echo $url; ?>vistas/images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
 									<h3><a href="blog.html">Make website from scratch</a></h3>
