@@ -63,28 +63,28 @@
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="about-desc">
-								<span class="heading-meta">Welcome</span>
-								<h2 class="colorlib-heading">Who we are</h2>
-								<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+								<span class="heading-meta">Bienvenido a </span>
+								<h2 class="colorlib-heading">Industrias Castros</h2>
+								<h3>Quienes somos:</h3>
+								<p>Somos una empresa mexicana que fabrica perfiles y separadores de platico para la presentación en las escaleras interiores y colocación de pisos </p>
 							</div>
 							<div class="row padding">
 								<div class="col-md-4 no-gutters animate-box" data-animate-effect="fadeInLeft">
 									<a href="#" class="steps active">
 										<p class="icon"><span><i class="icon-check"></i></span></p>
-										<h3>We are <br>pasionate</h3>
+										<h3>Honestidad<br></h3>
 									</a>
 								</div>
 								<div class="col-md-4 no-gutters animate-box" data-animate-effect="fadeInLeft">
 									<a href="#" class="steps">
 										<p class="icon"><span><i class="icon-check"></i></span></p>
-										<h3>Honest <br>Dependable</h3>
+										<h3>Puntuales <br></h3>
 									</a>
 								</div>
 								<div class="col-md-4 no-gutters animate-box" data-animate-effect="fadeInLeft">
 									<a href="#" class="steps">
 										<p class="icon"><span><i class="icon-check"></i></span></p>
-										<h3>Always <br>Improving</h3>
+										<h3>Honrados <br></h3>
 									</a>
 								</div>
 							</div>
@@ -92,15 +92,29 @@
 					</div>
 				</div>
 			</div>
+
+
 			
 			<div class="colorlib-services">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
+							<span class="heading-meta"></span>
+							<h2 class="colorlib-heading">Nuestros Servicio</h2>
 						</div>
 					</div>
+
+			<div id="get-in-touch" >
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<p class="colorlib-lead">Fabricamos perfiles de plástico, para la presentación y acabados de escaleras para interiores, esta tiene dos presentaciones que son:</p>
+							<p></p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
 					<div class="row">
 						<div class="col-md-6">
 							<div class="row">
@@ -198,125 +212,22 @@
 						<div class="col-md-3 text-center animate-box">
 							<span class="icon"><i class="flaticon-skyline"></i></span>
 							<span class="colorlib-counter js-counter" data-from="0" data-to="1539" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
+							<span class="colorlib-counter-label">perfiles  </span>
 						</div>
 						<div class="col-md-3 text-center animate-box">
 							<span class="icon"><i class="flaticon-engineer"></i></span>
 							<span class="colorlib-counter js-counter" data-from="0" data-to="3653" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Employees</span>
+							<span class="colorlib-counter-label">Separadores </span>
 						</div>
 						<div class="col-md-3 text-center animate-box">
 							<span class="icon"><i class="flaticon-architect-with-helmet"></i></span>
 							<span class="colorlib-counter js-counter" data-from="0" data-to="5987" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Constructor</span>
+							<span class="colorlib-counter-label">Construccion</span>
 						</div>
 						<div class="col-md-3 text-center animate-box">
 							<span class="icon"><i class="flaticon-worker"></i></span>
 							<span class="colorlib-counter js-counter" data-from="0" data-to="3999" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="colorlib-work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-1.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
-										<span>Building</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-2.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>House, Apartment</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Dining Room</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-4.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>House, Building</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Condo, Pad</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(<?php echo $url; ?>vistas/images/img-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Table, Chairs</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
+							<span class="colorlib-counter-label">Acabados</span>
 						</div>
 					</div>
 				</div>
@@ -326,8 +237,8 @@
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
+							<span class="heading-meta"></span>
+							<h2 class="colorlib-heading">Noticias y Tips</h2>
 						</div>
 					</div>
 					<div class="row">
@@ -365,22 +276,6 @@
 				</div>
 			</div>
 
-			<div id="get-in-touch" class="colorlib-bg-color">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<h2>Get in Touch!</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<p class="colorlib-lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-							<p><a href="#" class="btn btn-primary btn-learn">Contact me!</a></p>
-						</div>
-						
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 	
