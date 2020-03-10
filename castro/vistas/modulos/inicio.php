@@ -1,11 +1,8 @@
-		
-
-
 		<div id="colorlib-main">
 
 		<?php 
 			include("slide.php");
-		 ?>
+		?>
 
 			<div class="colorlib-about">
 				<div class="colorlib-narrow-content">
@@ -195,7 +192,7 @@
         $posts2 = obtener_post($blog_config2['post_por_pagina2'], $conexion);
 
 
- ?>
+?>
 
 			<div class="colorlib-blog">
 				<div class="colorlib-narrow-content">

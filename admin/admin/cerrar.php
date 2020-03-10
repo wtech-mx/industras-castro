@@ -6,7 +6,7 @@ session_destroy();
 $_SESSION = array();
 
 //header('Location: '. RUTA . '/login.php');
-header('Location: '. RUTA . '../galy/');
+header('Location: '. RUTA . '../castro/');
 
 die();
 

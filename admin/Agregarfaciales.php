@@ -47,8 +47,8 @@ $active="active";
 			$errMSG2 = "Seleccione el archivo de imagen 2.";
 		}
 		else{
-			$upload_dir = '../galy/vistas/imagenes/'; // upload directory
-			$upload_dir2 = '../galy/vistas/imagenes/'; // upload directory
+			$upload_dir = '../castro/vistas/imagenes/'; // upload directory
+			$upload_dir2 = '../castro/vistas/imagenes/'; // upload directory
 	
 			$imgExt = strtolower(pathinfo($imgFile,PATHINFO_EXTENSION)); // get image extension
 			$imgExt2 = strtolower(pathinfo($imgFile2,PATHINFO_EXTENSION)); // get image extension

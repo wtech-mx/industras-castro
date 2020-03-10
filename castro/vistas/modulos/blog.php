@@ -1,112 +1,78 @@
-
-	<div id="colorlib-page">
-
-		<div id="colorlib-main">
+<div id="colorlib-page">
+	<div id="colorlib-main">
+		<div class="colorlib-work">
+			<div class="colorlib-narrow-content">					
+<?php         
+        $conexion = conexion($bd_config);
+        // Obtenemos los post
+        $posts = obtener_post($blog_config['post_por_pagina'], $conexion);
+        $posts2 = obtener_post($blog_config2['post_por_pagina2'], $conexion);
+?>
 
 			<div class="colorlib-blog">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Blog</span>
-							<h2 class="colorlib-heading">Read Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="<?php echo $url; ?>vistas/images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="<?php echo $url; ?>vistas/images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="<?php echo $url; ?>vistas/images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
+							<span class="heading-meta"></span>
+							<h2 class="colorlib-heading">Noticias y Tips</h2>
 						</div>
 					</div>
 
 					<div class="row">
+						<?php foreach($posts2 as $posts2): ?>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="<?php echo $url; ?>vistas/images/blog-4.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="<?php echo $urlServidor; ?>single.php?id=<?php echo $posts2['id']; ?>" class="blog-img">
+									<img class="img-responsive" src="<?php echo $urlServidor; ?>imagenes/<?php echo $posts2['thumb']; ?>" alt="<?php echo $posts2['titulo'] ?>">
+								</a>
 								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<span><small><?php echo fecha($posts2['fecha']); ?></small><small></small></span>
+									<h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $posts2['titulo'] ?></a></h3>
+									<p><?php echo $posts2['extracto'] ?></p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="<?php echo $url; ?>vistas/images/blog-5.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="<?php echo $url; ?>vistas/images/blog-6.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<ul class="pagination">
-								<li class="disabled"><a href="#">&laquo;</a></li>
-								<li class="active"><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">&raquo;</a></li>
-							</ul>
-						</div>
+						 <?php endforeach; ?>          
 					</div>
 				</div>
 			</div>
+	
+<section class="paginacion">
+		                <ul>
+		                    <?php 
+		                        # Establecemos el numero de paginas
+		                        $numero_paginas = numero_paginas($blog_config2['post_por_pagina2'], $conexion);
+		                    ?>
+		                    <!-- Mostramos el boton para retroceder una pagina -->
+		                    <?php if (pagina_actual() === 1): ?>
+		                        <li class="disabled">&laquo;</li>
+		                    <?php else: ?>
+		                        <li><a href="blog.php?p=<?php echo pagina_actual() - 1?>#blog">&laquo;</a></li>
+		                    <?php endif; ?>
 
-			<div id="get-in-touch" class="colorlib-bg-color">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<h2>Get in Touch!</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<p class="colorlib-lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-							<p><a href="#" class="btn btn-primary btn-learn">Contact me!</a></p>
-						</div>
-						
-					</div>
-				</div>
+		                    <!-- Creamos un elemento li por cada pagina que tengamos -->
+		                    <?php for ($i = 1; $i <= $numero_paginas; $i++): ?>
+		                        <!-- Agregamos la clase active en la pagina actual -->
+		                        <?php if (pagina_actual() === $i): ?>
+		                            <li class="active">
+		                                <?php echo $i; ?>
+		                            </li>
+		                        <?php else: ?>
+		                            <li>
+		                                <a href="blog.php?p=<?php echo $i?>#blog"><?php echo $i; ?></a>
+		                            </li>
+		                        <?php endif; ?>
+		                    <?php endfor; ?>
+
+		                    <!-- Mostramos el boton para avanzar una pagina -->
+		                    <?php if (pagina_actual() == $numero_paginas): ?>
+		                        <li class="disabled">&raquo;</li>
+		                    <?php else: ?>
+		                        <li><a href="blog.php?p=<?php echo pagina_actual() + 1; ?>#blog">&raquo;</a></li>
+		                    <?php endif; ?>
+		                </ul>
+</section>
 			</div>
 		</div>
 	</div>
+</div>

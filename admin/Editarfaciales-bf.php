@@ -49,8 +49,8 @@ if(isset($_POST['btn_save_updates']))
 				
 	if($imgFile)
 	{
-		$upload_dir = '../galy/vistas/imagenes/'; // upload directory	
-		$upload_dir2 = '../galy/vistas/imagenes/'; // upload directory
+		$upload_dir = '../castro/vistas/imagenes/'; // upload directory	
+		$upload_dir2 = '../castro/vistas/imagenes/'; // upload directory
 
 		$imgExt = strtolower(pathinfo($imgFile,PATHINFO_EXTENSION)); // get image extension
 		$imgExt2 = strtolower(pathinfo($imgFile2,PATHINFO_EXTENSION)); // get image extension

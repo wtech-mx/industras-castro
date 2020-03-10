@@ -28,6 +28,7 @@ $blog_config = array(
 
 $blog_config2 = array(
 	'post_por_pagina2'=> '12',
+	'carpeta_imagenes' => 'imagenes/'
 );
 
 

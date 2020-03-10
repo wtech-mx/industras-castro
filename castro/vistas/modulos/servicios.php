@@ -20,8 +20,8 @@
 											<i class="flaticon-worker"></i>
 										</div>
 										<div class="colorlib-text">
-											<h3>General Conctructing</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+											<h3>Producto</h3>
+											<p>Fabricamos perfiles de plástico, para la presentación y acabados de escaleras para interiores. </p>
 										</div>
 									</div>
 
@@ -30,8 +30,8 @@
 											<i class="flaticon-sketch"></i>
 										</div>
 										<div class="colorlib-text">
-											<h3>Pre-Contruction Design</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+											<h3>Perfiles lisas</h3>
+											<p>Los perfiles de plásticos lisas, son de varios colores para adaptarse al acabado de la escalera u otro tipo de mueble de cocina o baño y mas. </p>
 										</div>
 									</div>
 								</div>
@@ -45,8 +45,8 @@
 											<i class="flaticon-engineering"></i>
 										</div>
 										<div class="colorlib-text">
-											<h3>Building &amp; Modeling</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+											<h3>Marmoleados</h3>
+											<p>Por lo que respecta a los perfiles de plástico tipo mármol, son también de varias presentaciones, así como de colores. </p>
 										</div>
 									</div>
 
@@ -55,8 +55,8 @@
 											<i class="flaticon-crane"></i>
 										</div>
 										<div class="colorlib-text">
-											<h3>Construction Management</h3>
-											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+											<h3>Usos</h3>
+											<p>Los usos, son también para los acabados de escaleras u otro tipo de mueble de cocina o baño y mas. </p>
 										</div>
 									</div>
 								</div>

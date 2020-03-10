@@ -47,11 +47,11 @@ $active="active";
 				</td>	
 				</tr>
 
-				<tr>
+				<!--<tr>
 
 				<td>
 					
-					<h5>Masajes</h5>
+				<h5>Masajes</h5>
 				</td>
 				<td>
 					<a class="btn btn-success" href="masajes-ab.php">Seleccionar</a>
@@ -61,7 +61,7 @@ $active="active";
 
 				<tr>
 
-				<td>
+			    <td>
 					
 					<h5>Manicura y Pedicura</h5>
 				</td>
@@ -79,7 +79,7 @@ $active="active";
 				<td>
 					<a class="btn btn-danger" href="antes-despues.php">Seleccionar</a>
 				</td>	
-				</tr>
+				</tr>-->
 
 				</table>
 
