@@ -27,7 +27,16 @@
 								</a>
 								<div class="desc">
 									<span><small><?php echo fecha($posts2['fecha']); ?></small><small></small></span>
-									<h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $posts2['titulo'] ?></a></h3>
+									<h3>
+										<a href="<?php echo $urlServidor; ?>single.php?id=<?php echo $posts2['id']; ?>"><?php echo $posts2['titulo'] ?>	
+										</a>
+									</h3>
+
+									<h3>
+										<a type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-<?php echo $posts2['id']; ?>">Modal 1</a>
+										</a>
+									</h3>
+
 									<p><?php echo $posts2['extracto'] ?></p>
 								</div>
 							</div>
@@ -37,41 +46,68 @@
 				</div>
 			</div>
 	
-<section class="paginacion">
-		                <ul>
-		                    <?php 
-		                        # Establecemos el numero de paginas
-		                        $numero_paginas = numero_paginas($blog_config2['post_por_pagina2'], $conexion);
-		                    ?>
-		                    <!-- Mostramos el boton para retroceder una pagina -->
-		                    <?php if (pagina_actual() === 1): ?>
-		                        <li class="disabled">&laquo;</li>
-		                    <?php else: ?>
-		                        <li><a href="blog.php?p=<?php echo pagina_actual() - 1?>#blog">&laquo;</a></li>
-		                    <?php endif; ?>
+			<section class="paginacion">
+                <ul>
+                    <?php 
+                        # Establecemos el numero de paginas
+                        $numero_paginas = numero_paginas($blog_config2['post_por_pagina2'], $conexion);
+                    ?>
+                    <!-- Mostramos el boton para retroceder una pagina -->
+                    <?php if (pagina_actual() === 1): ?>
+                        <li class="disabled">&laquo;</li>
+                    <?php else: ?>
+                        <li><a href="blog.php?p=<?php echo pagina_actual() - 1?>#blog">&laquo;</a></li>
+                    <?php endif; ?>
 
-		                    <!-- Creamos un elemento li por cada pagina que tengamos -->
-		                    <?php for ($i = 1; $i <= $numero_paginas; $i++): ?>
-		                        <!-- Agregamos la clase active en la pagina actual -->
-		                        <?php if (pagina_actual() === $i): ?>
-		                            <li class="active">
-		                                <?php echo $i; ?>
-		                            </li>
-		                        <?php else: ?>
-		                            <li>
-		                                <a href="blog.php?p=<?php echo $i?>#blog"><?php echo $i; ?></a>
-		                            </li>
-		                        <?php endif; ?>
-		                    <?php endfor; ?>
+                    <!-- Creamos un elemento li por cada pagina que tengamos -->
+                    <?php for ($i = 1; $i <= $numero_paginas; $i++): ?>
+                        <!-- Agregamos la clase active en la pagina actual -->
+                        <?php if (pagina_actual() === $i): ?>
+                            <li class="active">
+                                <?php echo $i; ?>
+                            </li>
+                        <?php else: ?>
+                            <li>
+                                <a href="blog.php?p=<?php echo $i?>#blog"><?php echo $i; ?></a>
+                            </li>
+                        <?php endif; ?>
+                    <?php endfor; ?>
 
-		                    <!-- Mostramos el boton para avanzar una pagina -->
-		                    <?php if (pagina_actual() == $numero_paginas): ?>
-		                        <li class="disabled">&raquo;</li>
-		                    <?php else: ?>
-		                        <li><a href="blog.php?p=<?php echo pagina_actual() + 1; ?>#blog">&raquo;</a></li>
-		                    <?php endif; ?>
-		                </ul>
-</section>
+                    <!-- Mostramos el boton para avanzar una pagina -->
+                    <?php if (pagina_actual() == $numero_paginas): ?>
+                        <li class="disabled">&raquo;</li>
+                    <?php else: ?>
+                        <li><a href="blog.php?p=<?php echo pagina_actual() + 1; ?>#blog">&raquo;</a></li>
+                    <?php endif; ?>
+                </ul>
+			</section>
+
+<?php foreach($posts2 as $posts2): ?>
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-<?php echo $posts2['id']; ?>">Modal 1</button>
+</div>
+
+<div class="modal fade" id="modal-<?php echo $posts2['id']; ?>">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal 1</h4>
+      </div>
+      <div class="modal-body">
+               <?php include("../../../admin/single.php") ?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-target="#modal-2" data-toggle="modal" data-dismiss="modal">Modal 2</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <?php endforeach; ?>  
+
+
+
+
 			</div>
 		</div>
 	</div>

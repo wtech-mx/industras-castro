@@ -20,10 +20,10 @@
    <div class="comparison-slider-wrapper">
     <!-- Comparison Slider - this div contain the slider with the individual images captions -->
     <div class="comparison-slider">
-     <img class="afterbf" src="<?php echo $url; ?>vistas/imagenes/<?php echo $row['Imagen_Img']; ?>" alt="<?php echo $row['Imagen_Img']; ?>" style="max-width: 1000%;">
+     <img class="afterbf" src="<?php echo $url; ?>vistas/imagenes/<?php echo $row['Imagen_Img']; ?>" alt="<?php echo $row['Imagen_Marca']; ?>" style="max-width: 1000%;">
      <!-- Div containing the image layed out on top from the left -->
      <div class="resize">
-      <img class="afterbf" src="<?php echo $url; ?>vistas/imagenes/<?php echo $row['Imagen_Img2']; ?>" alt="<?php echo $row['Imagen_Img2']; ?>" style="max-width: 1000%;">
+      <img class="afterbf" src="<?php echo $url; ?>vistas/imagenes/<?php echo $row['Imagen_Img2']; ?>" alt="<?php echo $row['Imagen_Marca']; ?>" style="max-width: 1000%;">
      </div>
      <!-- Divider where user will interact with the slider -->
      <div class="divider"></div>
@@ -44,7 +44,15 @@
   
 ?>
 </div>
- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 
 <script type="text/javascript">
 $(document).ready(function () {
@@ -138,10 +146,3 @@ function drags(dragElement, resizeElement, container) {
 
 }
 </script>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-

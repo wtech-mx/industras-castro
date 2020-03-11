@@ -26,7 +26,7 @@ $active="active";
 <div class="contenedor p-5">
 	<div class="row">
 			<div class="col-md-12">
-				<h2>Panel de Galerias</h2>
+				<h2>Panel de Galerias antes y despues</h2>
 				<!--<a href="" class="btn btn-primary" style="color: #fff">Agregar Slide</a> -->
 				<br>
 				<br>
@@ -40,7 +40,7 @@ $active="active";
 				<tr>
 				<td>
 					
-					<h5>Tratamienots Faciales</h5>
+					<h5>Trabajos</h5>
 				</td>
 				<td>
 					<a class="btn btn-primary" href="faciales-ab.php">Seleccionar</a>
