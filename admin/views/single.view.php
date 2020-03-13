@@ -1,12 +1,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
-    <meta name="keywords" content="salon de belleza, Tratamientos Faciales, Masajes, Tratamientos Corporales, Manicura y Pedicura, Salon de belleza, salon , galy , galy spa" />
     <meta name="author" content="" />
   <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content="salon de belleza | Tratamientos Faciales | Masajes | Tratamientos Corporales | Manicura y Pedicura | Salon de belleza"/>
     <meta property="og:image" content=""/>
-    <meta property="og:url" content="http://salongalyspa.com.mx/vistas/img/core-img/logo-galy.png"/>
-    <meta property="og:site_name" content="Salon Galy Spa<"/>
+    <meta property="og:url" style="background-image: url(<?php echo $url; ?>vistas/images/img_bg_2.jpg"/>
+    <meta property="og:site_name" content="Industrias Castro<"/>
     <meta property="og:description" content=""/>
 
     <link rel="stylesheet" href="<?php echo estilos ?>css/animate.css">
@@ -54,16 +52,16 @@
 
                     <div class="col-6">
                         <div class="top-header-content">
-                            <a href="#"><i class="icon_phone"></i> <span>55 4432 0116</span></a>
-                            <a href="#"><i class="icon_mail"></i> <span>salongalyspa@gmail.com</span></a>
+                            <a href="#"><i class="icon_phone"></i> <span>7090 7481</span></a>
+                            <a href="#"><i class="icon_mail"></i> <span>indcastro@gmail.com</span></a>
                         </div>
                     </div>
 
                     <div class="col-6">
                         <div class="top-header-content">
-                            <!-- Top Social Area -->
+                            <!-- Top Social Area 
                             <div class="top-social-area ml-auto">
-                                <a href="https://www.facebook.com/pg/Galyspa/services/" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/pg/Galyspa/services/" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>-->
 <!--                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
@@ -84,7 +82,7 @@
                     <nav class="classy-navbar justify-content-between" id="robertoNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href=" <?php echo link ?>"><img src="<?php echo estilos ?>img/core-img/logo-galy.png" alt="<?php estilos ?>img/core-img/logo-galy.png"></a>
+                        <img src="<?php $url; ?>vistas/images/LOGO-CASTRO.png">
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
