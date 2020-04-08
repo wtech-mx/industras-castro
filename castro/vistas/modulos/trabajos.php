@@ -19,7 +19,7 @@
    <h3><?php echo $Imagen_Tipo; ?></h3>
    <div class="comparison-slider-wrapper">
     <!-- Comparison Slider - this div contain the slider with the individual images captions -->
-    <div class="comparison-slider">
+    <div class="comparison-slider" >
      <img class="afterbf" src="<?php echo $url; ?>vistas/imagenes/<?php echo $row['Imagen_Img']; ?>" alt="<?php echo $row['Imagen_Marca']; ?>" style="max-width: 1000%;">
      <!-- Div containing the image layed out on top from the left -->
      <div class="resize">

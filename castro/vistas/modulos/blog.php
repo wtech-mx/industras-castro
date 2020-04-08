@@ -18,6 +18,7 @@
 						</div>
 					</div>
 
+
 					<div class="row">
 						<?php foreach($posts2 as $posts2): ?>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
@@ -93,21 +94,43 @@
 
 </style>
 			<section class="paginacion">
+
+                    <div class="row">
+                        <?php foreach($posts2 as $posts2): ?>
+                        <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+                            <div class="blog-entry">
+                                <a class="blog-img">
+                                    <img class="img-responsive" src="<?php echo $urlServidor; ?>imagenes/<?php echo $posts2['thumb']; ?>" alt="<?php echo $posts2['titulo'] ?>">
+                                </a>
+                                <div class="desc">
+                                    <span><small><?php echo fecha($posts2['fecha']); ?></small></span>
+                                    <h3><?php echo $posts2['titulo'] ?></a></h3>
+                                    <p><?php echo $posts2['texto'] ?></p>
+                                </div>
+                            </div>
+                        </div>
+                         <?php endforeach; ?>          
+                    </div>
+                </div>
+            </div>
+	
+		<!-- 	<section class="paginacion">
+
                 <ul>
                     <?php 
                         # Establecemos el numero de paginas
                         $numero_paginas = numero_paginas($blog_config2['post_por_pagina2'], $conexion);
                     ?>
-                    <!-- Mostramos el boton para retroceder una pagina -->
+                    Mostramos el boton para retroceder una pagina 
                     <?php if (pagina_actual() === 1): ?>
                         <li class="disabled">&laquo;</li>
                     <?php else: ?>
                         <li><a href="blog.php?p=<?php echo pagina_actual() - 1?>#blog">&laquo;</a></li>
                     <?php endif; ?>
 
-                    <!-- Creamos un elemento li por cada pagina que tengamos -->
+                    Creamos un elemento li por cada pagina que tengamos
                     <?php for ($i = 1; $i <= $numero_paginas; $i++): ?>
-                        <!-- Agregamos la clase active en la pagina actual -->
+                        Agregamos la clase active en la pagina actual 
                         <?php if (pagina_actual() === $i): ?>
                             <li class="active">
                                 <?php echo $i; ?>
@@ -119,7 +142,7 @@
                         <?php endif; ?>
                     <?php endfor; ?>
 
-                    <!-- Mostramos el boton para avanzar una pagina -->
+                    Mostramos el boton para avanzar una pagina 
                     <?php if (pagina_actual() == $numero_paginas): ?>
                         <li class="disabled">&raquo;</li>
                     <?php else: ?>
@@ -128,6 +151,7 @@
                 </ul>
 			</section>
 
+			</section>-->
 
 			</div>
 		</div>
