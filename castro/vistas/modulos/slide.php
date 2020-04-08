@@ -1,6 +1,6 @@
     <!--   maquetacion html si sirve -->
 
-<!--            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
               <!~~ Indicators ~~>
               <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -11,20 +11,31 @@
               <!~~ Wrapper for slides ~~>
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="<?php echo $url; ?>vistas/images/img_bg_1.jpg" alt="...">
+                  <img src="<?php echo $url; ?>vistas/images/Photos/9.jpg" alt="...">
                   <div class="carousel-caption">
-                    <h3><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</strong></h3>
-                    <p><strong>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </strong></p>
+                    <h3><strong>Fabricamos perfiles de plástico, para la presentación y acabados de escaleras para interiores, esta tiene dos presentaciones que son:</strong></h3>
+                    <p><strong>
+                      <ul>
+                      <li>Lisas </li>
+                      <li>Marmoleadas </li>
+                    </ul>
+                  </strong></p>
                   </div>
                 </div>
                 <div class="item">
-                  <img src="<?php echo $url; ?>vistas/images/img_bg_2.jpg" alt="...">
+                  <img src="<?php echo $url; ?>vistas/images/Photos/10.jpg" alt="...">
                       <div class="carousel-caption">
-                        <h3><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</strong></h3>
-                         <p><strong>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</strong></p>
+                        <h3><strong>Los perfiles de plásticos lisas, son de varios colores para adaptarse al acabado de la escalera u otro tipo de mueble de cocina o baño y mas </strong></h3>
+                         <p><strong></strong></p>
                       </div>
                 </div>
-                ...
+                <div class="item">
+                  <img src="<?php echo $url; ?>vistas/images/Photos/15.jpg" alt="...">
+                      <div class="carousel-caption">
+                        <h3><strong>Por lo que respecta a los perfiles de plástico tipo mármol, son también de varias presentaciones, así como de colores </strong></h3>
+                         <p><strong></strong></p>
+                      </div>
+                </div>
               </div>
 
               <!~~ Controls ~~>
@@ -36,9 +47,10 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div>-->
+            </div>
+
 <!--   maquetacion html dinamica si sirve -->
-    <?php
+<!--    <?php
         $sql_slider=mysqli_query($con,"select * from slider where estado=1 order by orden");
         $nums_slides=mysqli_num_rows($sql_slider);
      ?>   
@@ -49,10 +61,9 @@
               while ($rw_slider=mysqli_fetch_array($sql_slider)){
             ?>
 
- 
-              <!-- Indicators -->
+              <!~~ Indicators ~~>
 
-              <!-- Wrapper for slides -->
+              <!~~ Wrapper for slides ~~>
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
                   <img  src="<?php echo $urlServidor; ?>img/slider/<?php echo $rw_slider['url_image'];?>" alt="...">
@@ -74,9 +85,9 @@
                 <span class="sr-only">Next</span>
               </a>
 
-           
-                       <?php
-                            $active="";
-                        }
-                    ?>
-                      </div>
+       
+                   <?php
+                        $active="";
+                    }
+                ?>
+        </div>-->

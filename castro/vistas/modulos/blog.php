@@ -22,7 +22,7 @@
 						<?php foreach($posts2 as $posts2): ?>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="<?php echo $urlServidor; ?>single.php?id=<?php echo $posts2['id']; ?>" class="blog-img">
+								<a href="#" class="blog-img">
 									<img class="img-responsive" src="<?php echo $urlServidor; ?>imagenes/<?php echo $posts2['thumb']; ?>" alt="<?php echo $posts2['titulo'] ?>">
 								</a>
 								<div class="desc">
@@ -37,7 +37,7 @@
 										</a>
 									</h3>
 
-									<p><?php echo $posts2['extracto'] ?></p>
+									<p><?php echo $posts2['texto'] ?></p>
 								</div>
 							</div>
 						</div>
@@ -45,7 +45,53 @@
 					</div>
 				</div>
 			</div>
-	
+
+	<style type="text/css" media="screen">
+    /* --- Paginacion --- */
+
+.paginacion {
+    margin-bottom: 30px;
+}
+
+.paginacion ul {
+    list-style: none;
+    text-align: center;
+}
+
+.paginacion ul li {
+    display: inline-block;
+    margin:0 5px;
+    color:#fff;
+}
+
+.paginacion ul li a {
+    display: block;
+    padding:10px 20px;
+    background: #595959;
+    color:#fff;
+}
+
+.paginacion ul li a:hover {
+    background: #051240;
+    text-decoration: none;
+}
+
+.paginacion ul .active {
+    background: #051240;
+    padding:10px 20px;
+}
+
+.paginacion ul .disabled{
+    background: #a8a8a8;
+    padding:10px 20px;
+    cursor: not-allowed;
+}
+
+.paginacion ul .disabled:hover {
+    background: #a8a8a8;
+}
+
+</style>
 			<section class="paginacion">
                 <ul>
                     <?php 
@@ -81,31 +127,6 @@
                     <?php endif; ?>
                 </ul>
 			</section>
-
-<?php foreach($posts2 as $posts2): ?>
-<div class="container">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-<?php echo $posts2['id']; ?>">Modal 1</button>
-</div>
-
-<div class="modal fade" id="modal-<?php echo $posts2['id']; ?>">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal 1</h4>
-      </div>
-      <div class="modal-body">
-               <?php include("../../../admin/single.php") ?>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-success" data-target="#modal-2" data-toggle="modal" data-dismiss="modal">Modal 2</button>
-      </div>
-    </div>
-  </div>
-</div>
- <?php endforeach; ?>  
-
-
 
 
 			</div>

@@ -62,47 +62,280 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/services-1.jpg)"></div>
-								<div class="desc">
-									<h3>Design &amp; Build</h3>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-4">
-							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/services-2.jpg)"></div>
-								<div class="desc">
-									<h3>House Remodeling</h3>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-4">
-							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/services-3.jpg)"></div>
-								<div class="desc">
-									<h3>Construction Management</h3>
-								</div>
-							</a>
+						<div class="col-md-12">
+							<div class="row">
+								<p class="text-center">Se ocupan en la instalación de pisos de loseta, las losetas de varios tamaños, este producto también tiene varias presentación para el tamaño de la loseta y son :  <br></p> <br>
+								<ul class="text-center">
+									<li>a.- 3/16</li>
+									<li>b.- 3/8</li>
+									<li>c.- 1/4 </li>
+									<li>d.- 1/2 </li>
+									<li>c.- Vitroblock</li>
+								</ul>
+
+							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-4">
 							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/services-4.jpg)"></div>
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/1.jpg)"></div>
 								<div class="desc">
-									<h3>Painting &amp; Tiling</h3>
+									
 								</div>
 							</a>
 						</div>
 						<div class="col-md-4">
 							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
-								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/services-5.jpg)"></div>
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/2.jpg)"></div>
 								<div class="desc">
-									<h3>Kitchen Remodeling</h3>
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/3.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/4.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/5.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/6.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/7.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/8.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/9.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/10.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/11.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/12.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/13.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/14.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/15.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/16.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/17.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/18.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/19.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/20.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/21.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/22.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/23.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/24.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/25.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/26.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/27.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/28.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/29.jpg)"></div>
+								<div class="desc">
+									
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a href="services.html" class="services-wrap animate-box" data-animate-effect="fadeInRight">
+								<div class="services-img" style="background-image: url(<?php echo $url; ?>vistas/images/solos/30.jpg)"></div>
+								<div class="desc">
+									
 								</div>
 							</a>
 						</div>

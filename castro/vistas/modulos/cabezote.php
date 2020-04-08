@@ -1,18 +1,30 @@
 
 	<div id="colorlib-page">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight" style="background-color: #FF9378">
 			<h1 id="colorlib-logo"><a href="index"><img src="<?php $url; ?>vistas/images/LOGO-CASTRO.png" alt="" width="80%"></a></h1>
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
 					<?php echo 
 					'<li class="colorlib-active"><a href="index.php">Inicio</a></li>
-					<li><a href="'.$url.'trabajos"><strong>trabajos</strong></a></li>
-					<li><a href="'.$url.'nosotros"><strong>Nosotros</strong></a></li>
-					<li><a href="'.$url.'servicios"><strong>Servicios</strong></a></li>
-					<li><a href="'.$url.'blog"><strong>Blog</strong></a></li>
-					<li><a href="'.$url.'contacto"><strong>Contacto</strong></a></li>
-					<li><a href="'.$url.'login"><strong>Iniciar secion</strong></a></li>
+					<li><a href="'.$url.'trabajos"><strong style="color:#000"
+						
+					</style>trabajos</strong></a></li>
+					<li><a href="'.$url.'nosotros"><strong style="color:#000"
+						
+					</style>Nosotros</strong></a></li>
+					<li><a href="'.$url.'servicios"><strong style="color:#000"
+						
+					</style>Servicios</strong></a></li>
+					<li><a href="'.$url.'blog"><strong style="color:#000"
+						
+					</style>Blog</strong></a></li>
+					<li><a href="'.$url.'contacto"><strong style="color:#000"
+						
+					</style>Contacto</strong></a></li>
+					<li><a href="'.$url.'login"><strong style="color:#000"
+						
+					</style>Iniciar secion</strong></a></li>
 					';?>
 					</ul>
 			</nav>
